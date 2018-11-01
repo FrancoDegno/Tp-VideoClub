@@ -1,0 +1,18 @@
+
+<h1 class="center">Log In</h1>
+<form class="marginUp">
+  <div class="form-group col-md-4 center ">
+    <label for="exampleInputEmail1">Usuario</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user" [(ngModel)]="user.usuario" placeholder="Ingese Usuario">
+  </div>
+  <div class="form-group col-md-4 center">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" name="password" [(ngModel)]="user.contrasena" id="exampleInputPassword1" placeholder="Password">
+    <br>
+    <button type="submit" (click)="logIn()" class="btn btn-primary">Log in</button>
+  </div>
+
+ 
+</form>
+
+<p *ngIf="error">Usuario o contraseña incorrecto</p>

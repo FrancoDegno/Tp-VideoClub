@@ -1,0 +1,34 @@
+
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="#">TpPeliculas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" *ngIf="this._serviceU.loginUser!='admin'">
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/ListaPeliculas">Listado Peliculas</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="#">Historial Usuario</a>
+    </li>
+      <li class="nav-item">
+          <a class="nav-link" (click)="logOut()" routerLink="/logIn">Log Out</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="user_List center ">
+  <ul class="list-group" *ngFor="let movies of this.logedUser.histPeliculas">
+    <div class="form-row">
+      <div class="col-sm">
+          <li class="list-group-item">{{movies}}</li>
+      </div>
+    </div>
+  </ul>
+  
+  </div>

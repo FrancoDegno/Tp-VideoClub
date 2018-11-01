@@ -1,0 +1,118 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "el herrero y el diablo",
+      "descripcion": "Han pasado 10 años desde de la primera Guerra Carlista de 1833. En un pequeño pueblo de Álava, un comisario del gobierno llamado Alfredo investiga un suceso que le lleva hasta una herrería en lo profundo del bosque, donde vive un siniestro y solitario herrero llamado Patxi. Los aldeanos de la zona cuentan oscuras historias sobre él relacionadas con robos, asesinatos y pactos demoníacos. Hasta que por casualidad una niña huérfana llamada Usue consigue colarse en la misteriosa herrería, destapando la terrible verdad que se esconde tras Patxi el Herrero.",
+      "imagen": "https://pbs.twimg.com/media/DVDVrFBWsAEgInd.jpg",
+      "genero": "Fantasia",
+      "alquilada": true,
+      "valoracion": 3,
+      "cantidadAlquileres": 1,
+      "cantRaiting": 1
+    },
+    {
+      "id": 2,
+      "titulo": "el cadaver de la novia",
+      "descripcion": "En un pequeño, triste y reprimido pueblo victoriano, dos tímidos jóvenes están a punto de casarse - aunque no se han visto nunca antes .Los burdos y arribistas magnates de las conservas de pescado Nell y William Van Dort (con las voces de Tracey Ullman y Paul Whitehouse) siempre han soñado con formar parte de la alta sociedad - pero si bien no les falta riqueza, carecen por completo de la clase necesaria.",
+      "imagen": "https://http2.mlstatic.com/dvd-el-cadaver-de-la-novia-tim-burton-D_NQ_NP_438421-MCO20783436240_062016-F.jpg",
+      "genero": "Fantasia-Terror-Romantico",
+      "alquilada": true,
+      "valoracion": 10,
+      "cantidadAlquileres": 1,
+      "cantRaiting": 1
+    },
+    {
+      "id": 3,
+      "titulo": "Los miserables",
+      "descripcion": "La película narra la historia de Jean Valjean (Hugh Jackman, 'X-Men') y su particular camino de redención, desde sus días como prisionero en una cárcel hasta convertirse, con otra identidad, en alcalde de una ciudad francesa. Vlajean se hará cargo de la hija ilegítima de una mujer, Fantine (Anne Hathaway",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ4NDI3NDg4M15BMl5BanBnXkFtZTcwMjY5OTI1OA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+      "genero": "Historico-Drama-Musical",
+      "alquilada": false,
+      "valoracion": 2,
+      "cantidadAlquileres": 0,
+      "cantRaiting": 1
+    },
+    {
+      "id": 4,
+      "titulo": "Final Fantasy Advent children",
+      "descripcion": "Esta película generada íntegramente por ordenador, es la continuación del videojuego de Square Enix; Final Fantasy VII y forma parte de una estrategía de la propia compañía para completar la historia de la saga. El argumento nos sitúa dos años después de Final Fantasy VII. Cloud Strife, el protagonista, vive solo en la iglesia de Aeris y está afectado por una extraña enfermedad, el GeoStigma, un virus que lo está matando poco a poco dejándole sin energía...",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXjz0Dptp4G_kYgQf9VLt_PPGa0S1qBzp8od1-uKxZgNApCPQsg",
+      "genero": "Fantasia-Accion-Animacion",
+      "alquilada": false,
+      "valoracion": 3,
+      "cantidadAlquileres": 0,
+      "cantRaiting": 1
+    },
+    {
+      "id": 5,
+      "titulo": "El extraño mundo de Jack",
+      "descripcion": "El extraño mundo de Jack es – con todo derecho- un gran clásico contemporáneo, pionero en el arte de de hacer un musical animado, y de contar una historia oscura de tal modo, que resultara apta para todo público.",
+      "imagen": "https://cineyvideo.files.wordpress.com/2009/12/el_extrano_mundo_de_jack_1.jpg",
+      "genero": "Animacion-Musical",
+      "alquilada": false,
+      "valoracion": 5,
+      "cantidadAlquileres": 0,
+      "cantRaiting": 1
+    },
+    {
+      "id": 6,
+      "titulo": "El laberinto del fauno",
+      "descripcion": "Año 1944, posguerra española. Ofelia (Ivana Baquero) y su madre, Carmen (Ariadna Gil), que se encuentra en avanzado estado de gestación, se trasladan a un pequeño pueblo al que ha sido destinado el nuevo marido de Carmen, Vidal (Sergi López), un cruel capitán del ejército franquista por el que la niña no siente ningún afecto. La misión de Vidal es acabar con los últimos miembros de la resistencia republicana que permanecen escondidos en los montes de la zona. Otros personajes son: Mercedes (Maribel Verdú), el ama de llaves, y el médico (Álex Angulo) que se hará cargo del delicado estado de salud de Carmen. Una noche, Ofelia descubre las ruinas de un laberinto, y allí se encuentra con un fauno (Doug Jones), una extraña criatura que le hace una sorprendente revelación: ella es en realidad una princesa, la última de su estirpe, y los suyos la esperan desde hace mucho tiempo. Para poder regresar a su mágico reino, la niña deberá enfrentarse a tres pruebas. ",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCA4jA6Lajsre9nBtNcPK4EGGX_1qfGM68SWEyi1_IAhQIXJD_jw",
+      "genero": "Terror-Guerra-Psicologico",
+      "alquilada": false,
+      "valoracion": 4,
+      "cantidadAlquileres": 0,
+      "cantRaiting": 1
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Franco Jose Daniel",
+      "apellido": "Degano",
+      "usuario": "admin",
+      "contrasena": "admin",
+      "telefono": "3434536228",
+      "correo": "francodegano@hotmail.com",
+      "estado": "",
+      "histPeliculas": [
+        "el herrero y el diablo",
+        "el cadaver de la novia",
+        "Final Fantasy Advent children"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Franco Jose Daniel",
+      "apellido": "Degano",
+      "usuario": "user",
+      "contrasena": "user",
+      "telefono": "3434536228",
+      "correo": "francodegano@hotmail.com",
+      "estado": "",
+      "histPeliculas": [
+        "el herrero y el diablo",
+        "el cadaver de la novia",
+        "Los miserables",
+        "el herrero y el diablo",
+        "el cadaver de la novia",
+        "El laberinto del fauno",
+        "el cadaver de la novia",
+        "el herrero y el diablo"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Franco Jose Daniel",
+      "apellido": "Degano",
+      "usuario": "user2",
+      "contrasena": "user2",
+      "telefono": "3434536228",
+      "correo": "francodegano@hotmail.com",
+      "estado": "",
+      "histPeliculas": []
+    }
+  ]
+}

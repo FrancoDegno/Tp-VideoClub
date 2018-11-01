@@ -1,0 +1,65 @@
+.center{
+    margin-left: 30%;
+}
+
+.centerImg{
+    margin-left: 15%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.user_List{
+    margin-top: 3%;
+    width:30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.marginUp
+{
+    margin-top: 10%;
+}
+
+.width{
+    width: 80%;
+}
+
+.backGround{
+    background-color: black;
+}
+
+.imgSize{
+        width: 280px;
+        height: 400px; 
+        /* width:100%;
+        height: 100%; */
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: darkslategrey;
+}
+
+.textColorG{
+    color: green;
+}
+
+.textColorR{
+    color: red;
+}

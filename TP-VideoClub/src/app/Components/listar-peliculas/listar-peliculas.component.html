@@ -1,0 +1,103 @@
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="#">TpPeliculas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" *ngIf="this._serviceU.loginUser==='admin'">
+        <li class="nav-item ">
+          <a class="nav-link " routerLink="/registerMovie">Alta Peliculas<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/deleteMovie">Baja Peliculas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/modifMovie">Modificacion Peliculas</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" routerLink="/ListaPeliculas">Listado Peliculas</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" routerLink="/topMovie">Top Peliculas</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link " routerLink="/registerUser">Alta Usuario<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" routerLink="/deleteUser">Baja Usuario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/modifUser">Modificacion Usuario</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link" routerLink="/ListaUser">Listado Usuarios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" (click)="logOut()" routerLink="/logIn">Log Out</a>
+          </li>
+      </ul>
+
+      <ul class="navbar-nav" *ngIf="this._serviceU.loginUser!='admin'">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/ListaPeliculas">Listado Peliculas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/histUser">Historial Usuario</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="logOut()" routerLink="/logIn">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<div class="backGround">
+  <form class="centerImg"> 
+    <div class="form-row width ">
+      <div class="form-group col-md-4"  *ngFor="let movie of this._service.peliculas2">
+        <div >
+          <button (click)="detalles(movie)" >
+            <img class ="margin imgSize" src={{movie.imagen}} >
+          </button>
+        
+        </div>
+        <p>{{movie.titulo}}</p>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<!-- class="center" -->
+<!-- <div class="backGround" *ngIf="pelicula">
+    <form class="center"> 
+      <div class="form-row width ">
+
+
+        <div class="form-group col-md-4 margin">
+          <h1>{{this.pelicula.titulo}}</h1>
+
+          <div >
+              <img class ="margin imgSize" src={{this.pelicula.imagen}} > 
+          </div>
+        
+          <p>Genero:{{this.pelicula.genero}}</p>
+          <p>Valoracion:{{this.pelicula.valoracion}}</p>
+        </div>  
+        <div class="form-group col-md-4 centerImg">
+        <div class="form-check ">
+            <p>{{this.pelicula.descripcion}}</p>
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="alquilar" [(ngModel)]="pelicula.alquilada">
+            <label class="form-check-label" for="defaultCheck1">Alquilar</label>
+            
+            <br>
+            <br>
+        </div>
+        </div>
+
+      </div>
+    </form>
+  </div> -->
